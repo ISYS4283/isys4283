@@ -42,6 +42,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul id='top_navigation_menu' class='top_nav nav navbar-nav navigation-menu'>
                     <li><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="https://blog.isys4283.walton.uark.edu/">Blog</a></li>
                 </ul>
 
             </div><!--/#navbar.nav-collapse -->
