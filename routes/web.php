@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::name('syllabus')->get('/syllabus', function () {
+    return view('syllabus');
+});

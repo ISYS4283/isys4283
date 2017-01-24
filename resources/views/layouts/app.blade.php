@@ -43,6 +43,7 @@
                 <ul id='top_navigation_menu' class='top_nav nav navbar-nav navigation-menu'>
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="https://blog.isys4283.walton.uark.edu/">Blog</a></li>
+                    <li><a href="{{ route('syllabus') }}">Syllabus</a></li>
                 </ul>
 
             </div><!--/#navbar.nav-collapse -->
