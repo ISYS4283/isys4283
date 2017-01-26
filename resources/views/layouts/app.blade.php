@@ -17,6 +17,8 @@
     <link rel='stylesheet' href='/css/uark.css'></link>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    @yield('head')
 </head>
 <body>
     <div id="header-bg"></div>

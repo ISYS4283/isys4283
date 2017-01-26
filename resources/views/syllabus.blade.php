@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('head')
+    <link rel='stylesheet' href='/css/cal.css'></link>
+@endsection
+
 @section('content')
 
 <style>
@@ -75,10 +79,34 @@
 
 <h2>Assessment and Grades</h2>
 
+<p>In general, you will have something due every day by 11:59 PM.</p>
+<table class="calendar">
+    <thead>
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><ul><li>Homework</li></ul></td>
+            <td><ul><li>Quiz</li></ul></td>
+            <td><ul><li>Reading</li></ul></td>
+            <td><ul><li>Class</li><li>Question</li></ul></td>
+            <td><ul><li>Answer</li></ul></td>
+            <td><ul><li>Blog</li></ul></td>
+            <td><ul><li>Peer Reviews</li></ul></td>
+        </tr>
+    <tbody>
+</table>
+
 <h3>Class Participation</h3>
-<p>
-    There are 10 participation points to be earned every week.
-</p>
+<p>There are 10 participation points to be earned every week.</p>
 <ul>
     <li>Blog Writing (5 Points): Write a blog article summarizing the content from the chapter and lecture.</li>
     <li>Blog Review (3 Points): Review 3 of your peers' blog articles on a scale from 0-100.
