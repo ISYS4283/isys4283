@@ -10,4 +10,12 @@ class Event extends Model
         'title',
         'start',
     ];
+
+    /**
+     * The categories associated with the event.
+     */
+    public function categories()
+    {
+        return $this->belongsToMany('App\Category');
+    }
 }
