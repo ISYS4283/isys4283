@@ -17,7 +17,9 @@ class CreateEventsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('title');
+            $table->text('description')->nullable();
             $table->dateTime('start');
+            $table->dateTime('end');
             $table->integer('points')->nullable();
         });
     }
