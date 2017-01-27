@@ -14,7 +14,9 @@
 
 <script>
 $(document).ready(function() {
-    $('#calendar').fullCalendar()
+    $('#calendar').fullCalendar({
+        events: '/api/events'
+    });
 });
 </script>
 
