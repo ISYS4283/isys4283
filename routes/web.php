@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::name('syllabus')->get('/syllabus', function () {
     return view('syllabus');
 });
+
+Route::name('calendar')->get('/calendar', function () {
+    return view('calendar');
+});
