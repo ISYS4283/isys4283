@@ -17,6 +17,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::name('events')->get('/events', function(){
-    return App\Event::all();
-});
+Route::name('events')->get('/events', 'EventsController@index');

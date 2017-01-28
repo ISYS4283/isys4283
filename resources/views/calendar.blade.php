@@ -15,7 +15,12 @@
 <script>
 $(document).ready(function() {
     $('#calendar').fullCalendar({
-        events: '/api/events'
+        events: '/api/events',
+        header: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'month,agendaWeek,agendaDay,listYear'
+        }
     });
 });
 </script>
