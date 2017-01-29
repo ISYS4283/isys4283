@@ -38,6 +38,7 @@ $(document).ready(function() {
             right: 'month,agendaWeek,agendaDay,listYear'
         },
         eventClick: function(calEvent, jsEvent, view) {
+            console.log(calEvent);
             $(this).popover({
                 placement: 'bottom',
                 container: 'body',
@@ -53,22 +54,32 @@ $(document).ready(function() {
 });
 
 function renderPopoverEventContent(calEvent) {
-    var content = 'start: ' +
+    var content = '<strong>start:</strong> ' +
         calEvent.start._i;
 
     if (calEvent.allDay && !calEvent.end) {
-        content += '<br>end: 23:59:59';
+        content += '<br><strong>end:</strong> 23:59:59';
     }
 
     if (calEvent.end) content +=
-        '<br>end: ' +
+        '<br><strong>end:</strong> ' +
         calEvent.end._i;
 
     if (calEvent.description) content +=
-        '<br>description: ' + calEvent.description;
+        '<br><strong>description:</strong> ' + calEvent.description;
 
     if (calEvent.points) content +=
-        '<br>points: ' + calEvent.points;
+        '<br><strong>points:</strong> ' + calEvent.points;
+
+    if (calEvent.categories) {
+        var categories = [];
+
+        calEvent.categories.forEach(function(category) {
+            categories.push('<strong>' + category.name + '</strong><p>' + category.description + '</p>');
+        });
+
+        content += '<br><strong>categories:</strong><li>' + categories.join('</li><li>') + '</li>';
+    }
 
     return content;
 }
