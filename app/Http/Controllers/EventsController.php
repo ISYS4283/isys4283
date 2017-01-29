@@ -6,6 +6,7 @@ use App\Event;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use ColorContrast\ColorContrast;
+use jpuck\ColorMixer\Mixer;
 
 class EventsController extends Controller
 {
@@ -23,7 +24,10 @@ class EventsController extends Controller
             }
 
             // background color
-            $event->color = $event->categories->first()->color;
+            $colors = $event->categories->map(function($category){
+                return $category->color;
+            })->toArray();
+            $event->color = (new Mixer(...$colors))->mix()->hex();
 
             // text color
             $contrast = new ColorContrast;
