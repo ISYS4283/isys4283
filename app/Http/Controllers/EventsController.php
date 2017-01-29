@@ -19,6 +19,8 @@ class EventsController extends Controller
             if ( (new Carbon($event->start))->diffInHours(new Carbon($event->end)) > 22 ) {
                 $event->allDay = true;
             }
+            $event->color = $event->categories->first()->color;
+
             return $event;
         });
     }
