@@ -27,7 +27,7 @@
 <div id='calendar'></div>
 
 <div id="closePopoverBtn">
-    <a href="#" class="afa-window-close" onclick="return closePopover()" >
+    <a href="#" class="afa-window-close" onclick="return closePopover(this)" >
         <i class="fa fa-window-close" aria-hidden="true"></i>
     </a>
 </div>
@@ -42,7 +42,6 @@ $(document).ready(function() {
             right: 'month,agendaWeek,agendaDay,listYear'
         },
         eventClick: function(calEvent, jsEvent, view) {
-            console.log(calEvent);
             $(this).popover({
                 placement: 'bottom',
                 container: 'body',
@@ -88,8 +87,8 @@ function renderPopoverEventContent(calEvent) {
     return content;
 }
 
-function closePopover() {
-    $('.popover').hide();
+function closePopover(anchor) {
+    $(anchor).parents('.popover').hide();
     return false;
 }
 </script>
