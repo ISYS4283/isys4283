@@ -78,7 +78,15 @@ function renderPopoverEventContent(calEvent) {
         var categories = [];
 
         calEvent.categories.forEach(function(category) {
-            categories.push('<li style="border-color:' + category.color + '"><strong>' + category.name + '</strong><p>' + category.description + '</p></li>');
+            var listitem = '<strong>' + category.name + '</strong>';
+
+            if (category.description) {
+                listitem += '<p>' + category.description + '</p>';
+            }
+
+            listitem = '<li style="border-color:' + category.color + '">' + listitem + '</li>';
+
+            categories.push(listitem);
         });
 
         content += '<br><strong>categories:</strong>' + categories.join('');
