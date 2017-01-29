@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f02dca57ddfe6ccc921a364a05f4cd03",
+    "content-hash": "83d1ded59630d5cfc8eba8dbe1fc8ede",
     "packages": [
+        {
+            "name": "davidgorges/color-contrast",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidgorges/color-contrast-php.git",
+                "reference": "e42ea9b61586cd79706506e6a7b4ac38ba8a7e1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidgorges/color-contrast-php/zipball/e42ea9b61586cd79706506e6a7b4ac38ba8a7e1b",
+                "reference": "e42ea9b61586cd79706506e6a7b4ac38ba8a7e1b",
+                "shasum": ""
+            },
+            "require": {
+                "mischiefcollective/colorjizz": "dev-master",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "instaclick/php-code-sniffer": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ColorContrast\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A tiny library to find color combinations with a contrast threshold",
+            "homepage": "http://www.davidgorges.de",
+            "keywords": [
+                "WCAG 2.0",
+                "color",
+                "contrast",
+                "library",
+                "usability"
+            ],
+            "time": "2015-02-27T01:43:39+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -234,6 +277,45 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "jpuck/color-mixer",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpuck/color-mixer.git",
+                "reference": "687d5cbb5722dfb4a5b5c1ff09cb7bc5e64ef8fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jpuck/color-mixer/zipball/687d5cbb5722dfb4a5b5c1ff09cb7bc5e64ef8fe",
+                "reference": "687d5cbb5722dfb4a5b5c1ff09cb7bc5e64ef8fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jpuck\\ColorMixer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Puckett",
+                    "email": "jeff@jeffpuckett.com"
+                }
+            ],
+            "description": "Mix CSS colors like paint.",
+            "time": "2017-01-16T03:29:35+00:00"
         },
         {
             "name": "laracasts/flash",
@@ -547,6 +629,37 @@
                 "storage"
             ],
             "time": "2017-01-23T10:32:09+00:00"
+        },
+        {
+            "name": "mischiefcollective/colorjizz",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikeemoo/ColorJizz-PHP.git",
+                "reference": "361b8a8727d13b67cb593a936a715ad2204ececb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikeemoo/ColorJizz-PHP/zipball/361b8a8727d13b67cb593a936a715ad2204ececb",
+                "reference": "361b8a8727d13b67cb593a936a715ad2204ececb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MischiefCollective": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Classes for manipulating colors, converting to different formats and finding color harmonies",
+            "homepage": "http://mikeefranklin.co.uk:8080/job/ColorJizz-PHP/",
+            "time": "2016-11-14 16:58:48"
         },
         {
             "name": "monolog/monolog",
@@ -3372,9 +3485,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.4"
