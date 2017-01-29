@@ -13,6 +13,10 @@
         .fc-content {
             cursor: pointer;
         }
+        .popover-content li {
+            border: 5px solid;
+            padding: 5px;
+        }
     </style>
 @endsection
 
@@ -75,10 +79,10 @@ function renderPopoverEventContent(calEvent) {
         var categories = [];
 
         calEvent.categories.forEach(function(category) {
-            categories.push('<strong>' + category.name + '</strong><p>' + category.description + '</p>');
+            categories.push('<li style="border-color:' + category.color + '"><strong>' + category.name + '</strong><p>' + category.description + '</p></li>');
         });
 
-        content += '<br><strong>categories:</strong><li>' + categories.join('</li><li>') + '</li>';
+        content += '<br><strong>categories:</strong>' + categories.join('');
     }
 
     return content;
