@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Event;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
+use ColorContrast\ColorContrast;
 
 class EventsController extends Controller
 {
@@ -16,10 +17,22 @@ class EventsController extends Controller
     public function index()
     {
         return Event::all()->map(function($event, $key){
+            // all day event
             if ( (new Carbon($event->start))->diffInHours(new Carbon($event->end)) > 22 ) {
                 $event->allDay = true;
             }
+
+            // background color
             $event->color = $event->categories->first()->color;
+
+            // text color
+            $contrast = new ColorContrast;
+            $complimentary = $contrast->complimentaryTheme($event->color);
+            if ( $complimentary === ColorContrast::LIGHT ) {
+                $event->textColor = '#FFFFFF';
+            } else {
+                $event->textColor = '#000000';
+            }
 
             return $event;
         });
