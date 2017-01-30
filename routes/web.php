@@ -22,3 +22,7 @@ Route::name('syllabus')->get('/syllabus', function () {
 Route::name('calendar')->get('/calendar', function () {
     return view('calendar');
 });
+
+Route::name('resources')->get('/resources', function () {
+    return view('resources');
+});
