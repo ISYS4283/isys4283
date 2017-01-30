@@ -19,7 +19,9 @@ class EventsController extends Controller
     {
         return Event::all()->map(function($event, $key){
             // all day event
-            if ( (new Carbon($event->start))->diffInHours(new Carbon($event->end)) > 22 ) {
+            $start = new Carbon($event->start);
+            $end   = new Carbon($event->end);
+            if ( $start->diffInMinutes($end) === 1439 ) {
                 $event->allDay = true;
             }
 
