@@ -74,6 +74,8 @@ function renderPopoverEventContent(calEvent) {
     if (calEvent.points) content +=
         '<br><strong>points:</strong> ' + calEvent.points;
 
+    content += '<br><strong>id:</strong> ' + calEvent.id;
+
     if (calEvent.categories) {
         var categories = [];
 
