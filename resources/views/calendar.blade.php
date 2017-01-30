@@ -26,10 +26,12 @@
 
 <div id='calendar'></div>
 
-<div id="closePopoverBtn">
-    <a href="#" class="afa-window-close" onclick="return closePopover(this)" >
-        <i class="fa fa-window-close" aria-hidden="true"></i>
-    </a>
+<div style="display:none">
+    <div id="closePopoverBtn">
+        <a href="#" class="afa-window-close" onclick="return closePopover(this)" >
+            <i class="fa fa-window-close" aria-hidden="true"></i>
+        </a>
+    </div>
 </div>
 
 <script>
