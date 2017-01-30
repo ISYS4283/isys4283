@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return redirect('syllabus');
+    return redirect('calendar');
 });
 
 Route::name('syllabus')->get('/syllabus', function () {
     return view('syllabus');
+});
+
+Route::name('calendar')->get('/calendar', function () {
+    return view('calendar');
 });
