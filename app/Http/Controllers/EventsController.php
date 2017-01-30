@@ -6,7 +6,7 @@ use App\Event;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use ColorContrast\ColorContrast;
-use jpuck\ColorMixer\Mixer;
+use jpuck\ColorMixer\Color;
 
 class EventsController extends Controller
 {
@@ -24,18 +24,16 @@ class EventsController extends Controller
             }
 
             // background color
-            $colors = $event->categories->map(function($category){
-                return $category->color;
-            })->toArray();
-            $event->color = (new Mixer(...$colors))->mix()->hex();
+            $event->color = $event->categories->first()->color ?? 'powderblue';
+            $hex = (new Color($event->color))->hex();
 
             // text color
             $contrast = new ColorContrast;
-            $complimentary = $contrast->complimentaryTheme($event->color);
+            $complimentary = $contrast->complimentaryTheme($hex);
             if ( $complimentary === ColorContrast::LIGHT ) {
-                $event->textColor = '#FFFFFF';
+                $event->textColor = 'white';
             } else {
-                $event->textColor = '#000000';
+                $event->textColor = 'black';
             }
 
             return $event;
