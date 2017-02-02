@@ -18,7 +18,7 @@
     <table id="contact-info">
         <tbody>
             <tr><td>Instructor:</td><td>Jeff Puckett</td></tr>
-            <tr><td>Office Hours:</td><td>By Appointment</td></tr>
+            <tr><td>Office Hours:</td><td>@include('partials.personal-availability')</td></tr>
             <tr><td>Email:</td><td><a href="mailto:jpucket@uark.edu">jpucket@uark.edu</a></td></tr>
         </tbody>
     </table>

@@ -24,6 +24,10 @@
 
 <h1>Calendar</h1>
 
+<p class="lead">
+    @include('partials.personal-availability')
+</p>
+
 <div id='calendar'></div>
 
 <div style="display:none">
