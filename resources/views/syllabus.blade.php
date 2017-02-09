@@ -98,8 +98,8 @@
             <td><ul><li>Quiz</li></ul></td>
             <td><ul><li>Reading</li></ul></td>
             <td><ul><li>Class</li><li>Question</li></ul></td>
-            <td><ul><li>Answer</li></ul></td>
-            <td><ul><li>Blog</li></ul></td>
+            <td></td>
+            <td><ul><li>Blog</li><li>Answer</li></ul></td>
             <td><ul><li>Peer Reviews</li></ul></td>
         </tr>
     <tbody>
