@@ -17,6 +17,24 @@
     </li>
 
     <li>
+        Geography Datatypes
+        <ul>
+            <li><a href="http://stackoverflow.com/a/16743805/4233593" target="_blank">
+                What is the maximum length of latitude and longitude?
+            </a></li>
+            <li><a href="http://stackoverflow.com/a/1196429/4233593" target="_blank">
+                What datatype to use when storing latitude and longitude data in SQL databases?
+            </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Rhode_Island" target="_blank">
+                What state has the longest name?
+            </a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Longest_word_in_English#Place_names" target="_blank">
+                What city has the longest name?
+            </a></li>
+        </ul>
+    </li>
+
+    <li>
         <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775">How to Use Git and GitHub</a>. FREE course on udacity.
     </li>
 </ul>
