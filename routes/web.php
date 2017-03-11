@@ -26,3 +26,7 @@ Route::name('calendar')->get('/calendar', function () {
 Route::name('resources')->get('/resources', function () {
     return view('resources');
 });
+
+Route::name('project')->get('/project', function () {
+    return view('project');
+});

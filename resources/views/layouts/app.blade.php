@@ -49,6 +49,7 @@
                     <li><a href="https://learn.uark.edu/webapps/blackboard/execute/launcher?type=Course&id=_117101_1&url=">Blackboard</a></li>
                     <li><a href="https://github.com/ISYS4283">Github</a></li>
                     <li><a href="{{ route('resources') }}">Resources</a></li>
+                    <li><a href="{{ route('project') }}">Project</a></li>
                 </ul>
 
             </div><!--/#navbar.nav-collapse -->
