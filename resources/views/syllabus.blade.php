@@ -162,10 +162,10 @@
     by your instructor’s office and view your exam.
 </p>
 
-<h3>Project</h3>
+<h3><a href="{{ route('project') }}">Project</a></h3>
 <p>
     The class project is team-based and will be turned in and presented near the end of the semester. We
-    will form teams with three or four members per team. I reserve the right to arrange/rearrange team
+    will form teams with two to four members per team. I reserve the right to arrange/rearrange team
     assignments based upon skill mixture among the individual team members. Teams will be selected and
     the project assignment will be distributed during the first few weeks of the class. Three deliverables are
     included in the project, and a working application of professional quality is expected from each team.
