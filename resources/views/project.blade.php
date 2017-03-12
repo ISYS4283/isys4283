@@ -77,7 +77,12 @@ project to another key learning objective of the course.
     </li>
 </ul>
 
+<section class="panel panel-default">
+<div class="panel-heading">
 <h2 id="teams">Teams</h2>
+</div>
+<div class="panel-body">
+
 <p>
 Teams will be partnerships of two students.
 Submit your team memberships on blackboard, or you will be assigned to a team.
@@ -87,6 +92,12 @@ member to allow the project to be completed within the strict time limits.
 Please note that this project requires extensive use of computers and that the
 computer lab becomes increasingly crowded as the semester progresses.
 </p>
+
+@include('partials.teams')
+
+</div>
+</section>
+
 
 
 <section class="panel panel-default">
