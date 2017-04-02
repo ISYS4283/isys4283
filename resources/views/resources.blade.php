@@ -10,6 +10,23 @@
     </li>
 
     <li>
+        SQL Injection
+        <ul>
+            <li>
+                <a href="https://phpdelusions.net/sql_injection">
+                The Hitchhiker's Guide to SQL Injection prevention
+                </a>
+            </li>
+
+            <li>
+                <a href="http://stackoverflow.com/q/60174/4233593">
+                How can I prevent SQL injection in PHP?
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
         Unsigned Integers in
         <a href="http://stackoverflow.com/q/3895692/4233593" target="_blank">MySQL</a>
         vs
