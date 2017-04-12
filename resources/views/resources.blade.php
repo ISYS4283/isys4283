@@ -52,6 +52,14 @@
     </li>
 
     <li>
+        <a href="https://docs.microsoft.com/en-us/sql/relational-databases/xml/xml-data-sql-server">TSQL and XML</a>
+    </li>
+
+    <li>
+        <a href="https://docs.microsoft.com/en-us/sql/relational-databases/json/json-data-sql-server">TSQL and JSON</a>
+    </li>
+
+    <li>
         <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775">How to Use Git and GitHub</a>. FREE course on udacity.
     </li>
 </ul>
