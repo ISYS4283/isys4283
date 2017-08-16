@@ -15,15 +15,15 @@ properly documented and keeping to a firm deadline is pretty difficult
 (as you will discover).
 </p>
 
-<h2>Deliverables</h2>
+<h2>Deliverables - 100 points</h2>
 <ol>
-    <li><a href="#teams">Team Memberships</a></li>
-    <li><a href="{{ asset('downloads/TeamContract.docx') }}">Proposal</a></li>
-    <li><a href="#conceptual">Conceptual Design</a></li>
-    <li><a href="#physical">Physical Design</a></li>
-    <li><a href="#application">Finished Application</a></li>
-    <li><a href="#presentation">Presentation</a></li>
-    <li><a href="#peer-evaluation">Peer Evaluation</a></li>
+    <li><a href="#teams">Team Memberships</a> - 2 points</li>
+    <li><a href="{{ asset('downloads/TeamContract.docx') }}">Proposal</a> - 10 points</li>
+    <li><a href="#conceptual">Conceptual Design</a> - 25 points</li>
+    <li><a href="#physical">Physical Design</a> - 25 points</li>
+    <li><a href="#application">Finished Application</a> - 25 points</li>
+    <li><a href="#presentation">Presentation</a> - 10 points</li>
+    <li><a href="#peer-evaluation">Peer Evaluation</a> - 3 points</li>
 </ol>
 <p>
 Each team should submit one copy of each deliverable through the Assignment link
@@ -79,13 +79,14 @@ project to another key learning objective of the course.
 
 <section class="panel panel-default">
 <div class="panel-heading">
-<h2 id="teams">Teams</h2>
+<h2 id="teams">Teams - 2 points</h2>
 </div>
 <div class="panel-body">
 
 <p>
-Teams will be partnerships of two students.
-Submit your team memberships on blackboard, or you will be assigned to a team.
+Submit your team memberships on blackboard.
+If you fail to submit on time, then you will receive no points for this
+deliverable and you will be assigned to a team.
 I suggest that you divide the extensive work required equitably among the team
 members while at the same time relying on the special strengths of each team
 member to allow the project to be completed within the strict time limits.
@@ -102,7 +103,7 @@ computer lab becomes increasingly crowded as the semester progresses.
 
 <section class="panel panel-default">
 <div class="panel-heading">
-<h2 id="conceptual">Conceptual Design &amp; Non-Functional Prototype</h2>
+<h2 id="conceptual">Conceptual Design &amp; Non-Functional Prototype - 25 points</h2>
 </div>
 <div class="panel-body">
 
@@ -361,7 +362,7 @@ but should provide a good initial glance at how the system will work.
 
 <section class="panel panel-default">
 <div class="panel-heading">
-<h2 id="physical">Physical Design &amp; Working Prototype</h2>
+<h2 id="physical">Physical Design &amp; Working Prototype - 25 points</h2>
 </div>
 <div class="panel-body">
 
@@ -450,7 +451,7 @@ implement final details and any update/delete functionality.
 
 <section class="panel panel-default">
 <div class="panel-heading">
-<h2 id="application">Finished Application</h2>
+<h2 id="application">Finished Application - 25 points</h2>
 </div>
 <div class="panel-body">
 
@@ -545,7 +546,7 @@ It would be really nice if you uploaded all the source code to github for easy r
 
 <section class="panel panel-default">
 <div class="panel-heading">
-<h2 id="presentation">Presentation</h2>
+<h2 id="presentation">Presentation - 10 points</h2>
 </div>
 <div class="panel-body">
 
@@ -620,7 +621,7 @@ Below you will find the rubric used for grading of the in-class project presenta
 
 <section class="panel panel-default">
 <div class="panel-heading">
-<h2 id="peer-evaluation">Peer Evaluation</h2>
+<h2 id="peer-evaluation">Peer Evaluation - 3 points</h2>
 </div>
 <div class="panel-body">
 
