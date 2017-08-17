@@ -168,6 +168,7 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
+        razorbacks\style\laravel\StyleServiceProvider::class,
 
         /*
          * Application Service Providers...

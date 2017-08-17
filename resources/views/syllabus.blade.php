@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('head')
+@push('head')
     <link rel='stylesheet' href='/css/cal.css'></link>
-@endsection
+@endpush
 
 @section('content')
 
