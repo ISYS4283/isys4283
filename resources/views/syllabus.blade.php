@@ -79,32 +79,6 @@
 
 <h2>Assessment and Grades</h2>
 
-<p>In general, you will have something due every day by 11:59 PM.</p>
-<table class="calendar">
-    <thead>
-        <tr>
-            <th>Sun</th>
-            <th>Mon</th>
-            <th>Tue</th>
-            <th>Wed</th>
-            <th>Thu</th>
-            <th>Fri</th>
-            <th>Sat</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><ul><li>Homework</li></ul></td>
-            <td><ul><li>Quiz</li></ul></td>
-            <td><ul><li>Reading</li></ul></td>
-            <td><ul><li>Class</li><li>Question</li></ul></td>
-            <td></td>
-            <td><ul><li>Blog</li><li>Answer</li></ul></td>
-            <td><ul><li>Peer Reviews</li></ul></td>
-        </tr>
-    <tbody>
-</table>
-
 <h3>Class Participation</h3>
 <p>There are 10 participation points to be earned every week.</p>
 <ul>
