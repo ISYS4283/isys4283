@@ -80,22 +80,16 @@
 <h2>Assessment and Grades</h2>
 
 <h3>Class Participation</h3>
-<p>There are 10 participation points to be earned every week.</p>
+<p>
+    Class attendance is extremely important.
+    There are participation points to be earned every week.
+    Additionally, you are required to submit questions and answers into the course database.
+    These questions may be used on exams,
+    so it's in your benefit to familiarize yourself with the content submitted by your peers.
+</p>
 <ul>
-    <li>Blog Writing (5 Points): Write a blog article summarizing the content from the chapter and lecture.
-    There is a wordpress site provided for you at
-    <a href="https://blog.isys4283.walton.uark.edu/wp-login.php">https://blog.isys4283.walton.uark.edu/YOUR UARK USERNAME/</a>
-    and you will get realtime feedback on your content completeness with the semantic scale plugin.</li>
-    <li>Blog Review (3 Points): You will be assigned 3 of your peers' blog articles to read and review on a scale from 0-100.
-    You must <a href="https://github.com/ISYS4283/peer-reviews">insert your review score into your database</a>.
-    <strong>Reviews will be randomly assigned,</strong> so don't just pick the ones you want.
-    You are only eligible to review blogs if you also authored a blog that week.
-    The score you provide is entirely subjective and unto your discretion.
-    Your review will not impact the author's participation points.
-    Your review is used only for a leaderboard and bonus points.
-    Reviews are kept strictly confidential, but if you choose to share, then that is your prerogative.</li>
-    <li>Question (1 Point): <a href="https://github.com/ISYS4283/questions-answers">Insert at least one question</a> on-topic for the week's content.</li>
-    <li>Answer (1 Point): <a href="https://github.com/ISYS4283/questions-answers">Insert at least one answer</a> to that week's question pool.</li>
+    <li>Question (1 Point): Insert at least one question on-topic for the week's content.</li>
+    <li>Answer (1 Point): Insert at least one answer to someone else's question for that week's question pool.</li>
 </ul>
 
 <h3>Homework</h3>
