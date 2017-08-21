@@ -92,21 +92,22 @@
     <li>Answer (1 Point): Insert at least one answer to someone else's question for that week's question pool.</li>
 </ul>
 
-<h3>Homework</h3>
-<p>
-    The best way to become familiar with the concepts of database systems is by using them. To aid in your
-    learning there will be a number of individual homework assignments in this class. Assignments will
-    consist of exercises from the textbook as well as other material as appropriate. Assignments are due on
-    the specified date & time in the class schedule and should be completed in accordance with the academic
-    integrity policy. Usually these will be submitted on blackboard.
-</p>
-
 <h3>Quizzes</h3>
 <p>
     Several quizzes will be given throughout the semester on blackboard.
-    There will be approximately 12 quizzes over the semester worth 10 points each.
-    Any missed quiz will result in a score of 0 for that quiz.
+    You are expected to have read the week's chapter <strong>before</strong> class,
+    and the quizzes will be due prior to lectures as preliminary concept checks.
     If you are prepared for class, the quizzes should be easy five-minute exercises.
+</p>
+
+<h3>Homework</h3>
+<p>
+    The best way to become familiar with the concepts of database systems is by using them.
+    To aid in your learning there will be a number of homework assignments in this class.
+    Assignments will consist of exercises from the textbook as well as other material as appropriate.
+    Some of these will be group activities while others will be individual assignments
+    and should be completed in accordance with the academic integrity policy.
+    Usually these will be submitted on blackboard.
 </p>
 
 <h3>Exams</h3>
