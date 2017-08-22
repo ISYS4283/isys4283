@@ -2,15 +2,14 @@
 
 @push('head')
     <link rel='stylesheet' href='/css/cal.css'></link>
+    <style>
+    #contact-info td {
+        padding: 5px;
+    }
+    </style>
 @endpush
 
 @section('content')
-
-<style>
-#contact-info td {
-    padding: 5px;
-}
-</style>
 
 <h1>Syllabus</h1>
 
