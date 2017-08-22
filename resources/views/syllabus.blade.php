@@ -1,8 +1,30 @@
 @extends('layouts.app')
 
 @push('head')
-    <link rel='stylesheet' href='/css/cal.css'></link>
     <style>
+    table.point-break-down {
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: 1px solid black;
+        width: 100%;
+    }
+    table.point-break-down th,
+    table.point-break-down td  {
+        padding: 0.25em 0.25em;
+    }
+    table.point-break-down>thead>tr,
+    table.point-break-down>tfoot>tr {
+        background-color:gray;
+        color:white;
+    }
+    table.point-break-down>tbody>tr>td  {
+        font-size: medium;
+        width: 14%;
+        height: 80px;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid black;
+    }
     #contact-info td {
         padding: 5px;
     }
@@ -77,37 +99,49 @@
 </p>
 
 <h2>Assessment and Grades</h2>
-
-<h3>Class Participation</h3>
-<p>
-    Class attendance is extremely important.
-    There are participation points to be earned every week.
-    Additionally, you are required to submit questions and answers into the course database.
-    These questions may be used on exams,
-    so it's in your benefit to familiarize yourself with the content submitted by your peers.
-</p>
-<ul>
-    <li>Question (1 Point): Insert at least one question on-topic for the week's content.</li>
-    <li>Answer (1 Point): Insert at least one answer to someone else's question for that week's question pool.</li>
-</ul>
-
-<h3>Quizzes</h3>
-<p>
-    Several quizzes will be given throughout the semester on blackboard.
-    You are expected to have read the week's chapter <strong>before</strong> class,
-    and the quizzes will be due prior to lectures as preliminary concept checks.
-    If you are prepared for class, the quizzes should be easy five-minute exercises.
-</p>
-
-<h3>Homework</h3>
-<p>
-    The best way to become familiar with the concepts of database systems is by using them.
-    To aid in your learning there will be a number of homework assignments in this class.
-    Assignments will consist of exercises from the textbook as well as other material as appropriate.
-    Some of these will be group activities while others will be individual assignments
-    and should be completed in accordance with the academic integrity policy.
-    Usually these will be submitted on blackboard.
-</p>
+<table class="point-break-down">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Points</th>
+            <th>Percentage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Exams</td>
+            <td>200</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>In-Class / Homework</td>
+            <td>116</td>
+            <td>23.2</td>
+        </tr>
+        <tr>
+            <td>Project</td>
+            <td>100</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Quizzes</td>
+            <td>60</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Q &amp; A</td>
+            <td>24</td>
+            <td>4.8</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>500</strong></td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
 
 <h3>Exams</h3>
 <p>
@@ -120,29 +154,55 @@
     unless prior permission has been given.
     Permission to take a make-up exam will be given only for extreme circumstances.
 </p>
+
+<h3>Class Participation</h3>
 <p>
-    A grade of zero (0) will be assigned if any examination materials are removed, even briefly, from the
-    examination administration or the graded examination review site before, during, after, or during graded
-    review of an examination, NO EXCEPTIONS. When exams are returned to you in the classroom and/or
-    office environment for viewing your score, make sure they are returned to your instructor or a grade of
-    zero (0) will be assigned to you for that particular exam. If you are absent on the day exams are returned
-    in the classroom, it will be your responsibility to contact your instructor and make an appointment to come
-    by your instructor’s office and view your exam.
+    Class attendance is extremely important.
+    There are participation points to be earned every week including many group activities.
+    Additionally, you are required to submit questions and answers into the course database.
+    These questions may be used on exams,
+    so it's in your benefit to familiarize yourself with the content submitted by your peers.
+</p>
+<ul>
+    <li>Question (1 Point): Insert at least one question on-topic for the week's content.</li>
+    <li>Answer (1 Point): Insert at least one answer to someone else's question for that week's question pool.</li>
+</ul>
+
+<h3>Homework</h3>
+<p>
+    The best way to become familiar with the concepts of database systems is by using them.
+    To aid in your learning there will be a number of homework assignments in this class.
+    Assignments will consist of exercises from the textbook as well as other material as appropriate.
+    Some of these will be group activities while others will be individual assignments
+    and should be completed in accordance with the academic integrity policy.
+    Usually these will be submitted on blackboard.
 </p>
 
 <h3><a href="{{ route('project') }}">Project</a></h3>
 <p>
-    The class project is team-based and will be turned in and presented near the end of the semester. We
-    will form teams with two to four members per team. I reserve the right to arrange/rearrange team
-    assignments based upon skill mixture among the individual team members. Teams will be selected and
-    the project assignment will be distributed during the first few weeks of the class. Three deliverables are
-    included in the project, and a working application of professional quality is expected from each team.
-    Group members will critique other group members' contribution and these critiques will have a direct
-    bearing on the points allocated to individuals on each team. Your project will require you to create a
-    working software application (e.g. Visual Basic (preferred), COBOL, Java, etc...) that accesses a
-    database on SQL Server or Teradata (Microsoft Access will not be accepted for this course). A wide
-    range of skills are required to successfully complete the project, and this must be kept in mind when
-    assembling project teams. Further details on the project and presentation will be given later.
+    The class project is team-based and will be turned in and presented near the end of the semester.
+    We will form teams with two to four members per team.
+    I reserve the right to arrange/rearrange team assignments.
+    Teams will be selected and the project assignment will be distributed during the first few weeks of the class.
+    Many deliverables are required for the project,
+    and a working application of professional quality is expected from each team.
+    Group members will critique other group members' contribution,
+    and these critiques will have a direct bearing on the points allocated to individuals on each team.
+    Your project will require you to create a working software application
+    (e.g. Visual Basic, C#, COBOL, Java, PHP, Python, etc...)
+    that accesses a professional database management system
+    (MS SQL Server, Teradata, Postgres, Oracle, MySQL, etc...
+    [Microsoft Access will not be accepted for this course]).
+    A wide range of skills are required to successfully complete the project,
+    and this must be kept in mind when assembling project teams.
+</p>
+
+<h3>Quizzes</h3>
+<p>
+    Several quizzes will be given throughout the semester on blackboard.
+    You are expected to have read the week's chapter <strong>before</strong> class,
+    and the quizzes will be due prior to lectures as preliminary concept checks.
+    If you are prepared for class, the quizzes should be easy five-minute exercises.
 </p>
 
 @endsection
