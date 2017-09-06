@@ -27,6 +27,12 @@
     </li>
 
     <li>
+        <a href="https://www.informit.com/articles/article.aspx?p=25862" target="_blank">
+            The Cost of GUIDs as Primary Keys
+        </a>
+    </li>
+
+    <li>
         Unsigned Integers in
         <a href="http://stackoverflow.com/q/3895692/4233593" target="_blank">MySQL</a>
         vs
