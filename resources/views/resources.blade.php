@@ -51,6 +51,9 @@
             <li><a href="https://gis.stackexchange.com/q/53918" target="_blank">
                 Can one zip code span across multiple states?
             </a></li>
+            <li><a href="https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/" target="_blank">
+                Falsehoods programmers believe about addresses
+            </a></li>
             <li><a href="http://stackoverflow.com/a/16743805/4233593" target="_blank">
                 What is the maximum length of latitude and longitude?
             </a></li>
