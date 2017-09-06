@@ -27,6 +27,12 @@
     </li>
 
     <li>
+        <a href="https://serversforhackers.com/laravel-perf/mysql-indexing-two" target="_blank">
+            MySQL Indexing
+        </a>
+    </li>
+
+    <li>
         <a href="https://www.informit.com/articles/article.aspx?p=25862" target="_blank">
             The Cost of GUIDs as Primary Keys
         </a>
