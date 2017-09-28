@@ -27,6 +27,18 @@
     </li>
 
     <li>
+        <a href="https://stackoverflow.com/a/15128103/4233593">
+            What is unicode, and why do we need it? 😉
+        </a>
+    </li>
+
+    <li>
+        <a href="https://stackoverflow.com/a/147302/4233593">
+            What is the difference between VARCHAR and NVARCHAR?
+        </a>
+    </li>
+
+    <li>
         <a href="https://serversforhackers.com/laravel-perf/mysql-indexing-two" target="_blank">
             MySQL Indexing
         </a>
