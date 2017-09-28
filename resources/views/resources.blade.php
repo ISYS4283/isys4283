@@ -19,7 +19,7 @@
             </li>
 
             <li>
-                <a href="http://stackoverflow.com/q/60174/4233593">
+                <a href="https://stackoverflow.com/q/60174/4233593">
                 How can I prevent SQL injection in PHP?
                 </a>
             </li>
@@ -52,9 +52,9 @@
 
     <li>
         Unsigned Integers in
-        <a href="http://stackoverflow.com/q/3895692/4233593">MySQL</a>
+        <a href="https://stackoverflow.com/q/3895692/4233593">MySQL</a>
         vs
-        <a href="http://dba.stackexchange.com/q/53050/92376">MSSQL</a>
+        <a href="https://dba.stackexchange.com/q/53050/92376">MSSQL</a>
     </li>
 
     <li>
@@ -66,10 +66,10 @@
             <li><a href="https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/">
                 Falsehoods programmers believe about addresses
             </a></li>
-            <li><a href="http://stackoverflow.com/a/16743805/4233593">
+            <li><a href="https://stackoverflow.com/a/16743805/4233593">
                 What is the maximum length of latitude and longitude?
             </a></li>
-            <li><a href="http://stackoverflow.com/a/1196429/4233593">
+            <li><a href="https://stackoverflow.com/a/1196429/4233593">
                 What datatype to use when storing latitude and longitude data in SQL databases?
             </a></li>
             <li><a href="https://en.wikipedia.org/wiki/Rhode_Island">
