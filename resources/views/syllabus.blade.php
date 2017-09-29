@@ -160,14 +160,18 @@
     Class attendance is extremely important.
     There are participation points to be earned every week including many group activities.
     Additionally, every week you are required to
-    <a href="https://github.com/ISYS4283/questions-answers">submit questions and answers into the course database</a>.
+    submit questions and answers into the course database.
     These questions may be used on exams,
     so it's in your benefit to familiarize yourself with the content submitted by your peers.
 </p>
 <ul>
-    <li>Question (1 Point): Insert at least one question on-topic for the week's content.</li>
-    <li>Answer (1 Point): Insert at least one answer to someone else's question for that week's question pool.</li>
+    <li>Question (1 point per week)</li>
+    <li>Answer (1 point per week)</li>
 </ul>
+<p>
+    Refer to the <a href="https://github.com/ISYS4283/questions-answers">project repository</a>
+    for detailed requirements, which may change over time.
+</p>
 
 <h3>Homework</h3>
 <p>
