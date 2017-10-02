@@ -84,6 +84,7 @@ project to another key learning objective of the course.
 <div class="panel-body">
 
 <p>
+Teams must be between 2 - 4 people.
 Submit your team memberships on blackboard.
 If you fail to submit on time, then you will receive no points for this
 deliverable and you will be assigned to a team.
