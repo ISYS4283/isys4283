@@ -420,8 +420,8 @@ and meanings for each attribute.
 
 <h3>Data Definition Language</h3>
 <p>
-You should have your tables created with sample data in each one.
-Include the DDL for your schema (CREATE statements) with your submission.
+You must have at least 5 tables created with hundreds of records of sample data.
+Include the DDL for your schema (<code>CREATE</code> statements) with your submission.
 I will also be exploring the database and selecting data.
 </p>
 
@@ -433,6 +433,30 @@ and insert data.
 This is a significant undertaking, and while the actual SQL used may change as
 you go forward, this will help give you an idea of what you’ll need to do.
 </p>
+
+<p>
+    Requirements:
+    <ul>
+        <li><code>SELECT</code> statement</li>
+        <li><code>INSERT</code> statement</li>
+        <li><code>UPDATE</code> statement</li>
+        <li><code>DELETE</code> statement</li>
+        <li><code>JOIN</code> statement</li>
+        <li>
+            You must use at least one of the following:
+            <ul>
+                <li>Stored Procedure</li>
+                <li>Trigger</li>
+                <li>User Defined Function</li>
+            </ul>
+        </li>
+        <li>
+            You must use a <code>VIEW</code> in some capacity,
+            such as abstracting a complex report.
+        </li>
+    </ul>
+</p>
+
 
 <h3>Working Prototype</h3>
 <p>
