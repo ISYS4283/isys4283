@@ -95,7 +95,15 @@ Please note that this project requires extensive use of computers and that the
 computer lab becomes increasingly crowded as the semester progresses.
 </p>
 
-@include('partials.teams')
+<h3>Official Team Memberships</h3>
+
+<pre class="prettyprint lang-sql linenums">
+    SELECT team, first_name, last_name
+    FROM project_teams pt
+    JOIN users u
+      ON pt.user_id = u.id
+    ORDER BY team
+</pre>
 
 </div>
 </section>

@@ -2,6 +2,11 @@
 
 @section('head')
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"></link>
+    <style>
+        pre.prettyprint {
+            font-size: 18px;
+        }
+    </style>
 @endsection
 
 @section('navbar')
@@ -20,6 +25,8 @@
         crossorigin="anonymous"></script>
 
     <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=sql&skin=sons-of-obsidian"></script>
 
     <script>
         $(document).ready(function(){
