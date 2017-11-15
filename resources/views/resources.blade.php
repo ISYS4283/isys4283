@@ -26,6 +26,10 @@
         </ul>
     </li>
 
+    <li><a href="https://stackoverflow.com/a/1473313/4233593">
+        How to completely clean a SQL Server database?
+    </a></li>
+
     <li>
         <a href="https://stackoverflow.com/a/15128103/4233593">
             What is unicode, and why do we need it? 😉
